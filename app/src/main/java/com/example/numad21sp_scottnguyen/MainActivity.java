@@ -32,19 +32,6 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-
-        // about button
-        Button aboutButton = (Button) findViewById(R.id.about);
-        aboutButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(
-                        getApplicationContext(),
-                        "Name: Scott Nguyen\nEmail: nguyen.sco@northeastern.edu",
-                        Toast.LENGTH_LONG)
-                        .show();
-            }
-        });
     }
 
     @Override
